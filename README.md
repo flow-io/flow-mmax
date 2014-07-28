@@ -27,7 +27,7 @@ for (var i = 0; i < randoms.length; i++) {
 // Create a readable stream from an array:
 var randStream = eventStream.readArray(randoms);
 
-// Create a new moving min stream:
+// Create a new moving max stream:
 var myStream = maxStream()
 	.window( 7 )
 	.stream();
