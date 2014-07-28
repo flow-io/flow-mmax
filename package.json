@@ -1,0 +1,61 @@
+{
+  "name": "flow-mmax",
+  "version": "0.0.0",
+  "description": "Transform stream which finds the maximum value in a sliding-window in a numeric data stream.",
+  "author": {
+    "name": "Rebekah Smith",
+    "email": "rebekahjs17@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Rebekah Smith",
+      "email": "rebekahjs17@gmail.com"
+    },
+    {
+      "name": "Athan Reines",
+      "email": "athan@nodeprime.com"
+    }
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flow-io/flow-mmax.git"
+  },
+  "keywords": [
+    "stream",
+    "writable",
+    "readable",
+    "transform",
+    "through",
+    "flow",
+    "flow.io",
+    "maximum",
+    "max",
+    "moving max",
+    "sliding window",
+    "statistics",
+    "stats"
+  ],
+  "bugs": {
+    "url": "https://github.com/flow-io/flow-mmax/issues"
+  },
+  "dependencies": {
+    "flow-reduce": "~0.0.0",
+    "through": "~2.3.4"
+  },
+  "devDependencies": {
+    "chai": "1.x.x",
+    "event-stream": "^3.1.7",
+    "mocha": "1.x.x",
+    "stream-spec": "~0.3.5"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ]
+}
