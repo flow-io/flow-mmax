@@ -1,22 +1,19 @@
 flow-mmax
 =========
 
-Transform stream which finds the maximum value in a sliding-window (moving max) in a numeric data stream.
+Transform stream factory to find sliding-window maximum values (moving max) over a numeric data stream.
 
 ## Installation
 
-+ Clone flow-mmax.
-+ In top level of new flow-mmax directory, use
-
 ```bash
-$ npm install
+$ npm install flow-mmax
 ```
 
 ## Examples
 
 ``` javascript
 var eventStream = require('event-stream'),
-      maxStream = require('flow-mmax');
+	maxStream = require('flow-mmax');
 
 // Create an array containing random numbers:
 var randoms = new Array( 50 );

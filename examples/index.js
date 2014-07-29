@@ -1,5 +1,5 @@
 var eventStream = require('event-stream'),
-      maxStream = require('./../lib');
+	maxStream = require('./../lib');
 
 // Create an array containing random numbers:
 var randoms = new Array( 50 );
